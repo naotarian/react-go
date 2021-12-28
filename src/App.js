@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 // import styled from "styled-components";
 // import { Button, ButtonProps } from "@material-ui/core/";
 
@@ -28,6 +28,9 @@ import logo from './logo.svg';
 import './App.css';
 import { Grid } from '@material-ui/core';
 import Header from './components/template/Header';
+import Content from './components/template/Content';
+import styled from "styled-components";
+
 
 function App() {
   return (
@@ -38,11 +41,7 @@ function App() {
       <Grid item container>
         <Grid sm={2} />
         <Grid xs={12} sm={8}>
-          item2item2item2item2item2item2item2item2item2item2item2item2
-          item2item2item2item2item2item2item2item2item2item2item2item2
-          item2item2item2item2item2item2item2item2item2item2item2item2
-          item2item2item2item2item2item2item2item2item2item2item2item2
-          item2item2item2item2item2item2item2item2item2item2item2item2
+          <Content />
         </Grid>
         <Grid sm={2} />
       </Grid>
